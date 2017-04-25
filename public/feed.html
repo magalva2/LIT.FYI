@@ -1,0 +1,49 @@
+<html>
+	<head>
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- jQuery | Bootstrap -->
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/ScrollMagic.min.js"></script>
+		<script src="js/jquery.scrollify.min.js"></script>
+        <script src='/js/asyncReq.js'> </script>
+		<link rel='stylesheet' type='text/css' href="css/index.css">						
+		<script src="js/getXMLHTTPRequest.js"></script>
+		<script src="js/client.js"></script>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<script src="https://use.fontawesome.com/c117b943c9.js"></script>
+
+	</head>   
+	<body onload='getSocial()'>
+		
+		<nav class='navbar navbar-fixed-top' style="display:none;">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">LIT</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="index.html">Landing Page</a></li>
+					<li><a href="graph.html">Graph</a></li> 
+					<li><a href="login.html">Login</a></li> 
+				</ul>
+			</div>
+		</nav>
+		<div id="loading">
+
+			<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+			<span class="sr-only">Loading...</span>
+			
+		</div>
+		
+		<div id="list"></div>
+		<div id="details"></div>
+		
+	</body>
+</html>
